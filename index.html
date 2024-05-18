@@ -18,6 +18,16 @@
         console.log(`after pop: ${elements}`);
         elements.unshift('A');
         console.log(`after unshift: ${elements}`);
+        elements.shift();
+        console.log(`after shift: ${elements}`);
+        elements.splice(2,2,'C','D');
+        console.log(`splice result: ${elements}`);
+        console.log(elements.join("#"));
+        console.log(`Reverse array: ${elements.reverse()}`);
+        console.log(`Sorted array: ${elements.sort()}`);
+        console.log(`index of letter s is ${elements.indexOf("s")}`);
+        console.log(`is there is letter 'j' present in array: ${elements.includes('j')}`);
+        console.log(`is there is letter 'z' present in array: ${elements.includes('z')}`);
     </script>
 </body>
 </html>
