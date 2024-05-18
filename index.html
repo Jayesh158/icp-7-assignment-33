@@ -9,7 +9,15 @@
 <body>
     <script>
         const elements = ['j','a','y','e','s','h'];
-        console.log(`array:${letters}`);
+        console.log(`array:${elements}`);
+        console.log(`length of array is ${elements.length}`);
+        console.log(`element on index 0 is ${elements[0]}`);
+        elements.push('v');
+        console.log(`after push: ${elements}`);
+        elements.pop();
+        console.log(`after pop: ${elements}`);
+        elements.unshift('A');
+        console.log(`after unshift: ${elements}`);
     </script>
 </body>
 </html>
